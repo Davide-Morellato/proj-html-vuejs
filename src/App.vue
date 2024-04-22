@@ -10,12 +10,46 @@ export default{
     HeaderComponent,
     MainComponent,
     FooterComponent
+  },
+  data(){
+    return{
+      headerLinks: [
+        {
+          name: 'Home',
+          src: '#'
+        },
+        {
+          name: 'Services',
+          src: '#'
+        },
+        {
+          name: 'Why Us',
+          src: '#'
+        },
+        {
+          name: 'Case Studies',
+          src: '#'
+        },
+        {
+          name: 'About',
+          src: '#'
+        },
+        {
+          name: 'Blog',
+          src: '#'
+        },
+        {
+          name: '(555) 802-1234',
+          src: '#'
+        },
+      ]
+    }
   }
 }
 </script>
 
 <template>
-<HeaderComponent/>
+<HeaderComponent :headerLink="headerLinks"/>
 <MainComponent/>
 <FooterComponent/>
 </template>

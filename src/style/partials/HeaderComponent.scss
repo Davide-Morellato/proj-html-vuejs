@@ -1,5 +1,5 @@
 .container{
-    width: 1390px;
+    max-width: 1390px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -37,4 +37,9 @@
     border-radius: 10px;
     border: none;
     font-size: 18px;
+}
+
+.header_button:hover{
+    color: white;
+    background-color: orangered;
 }
