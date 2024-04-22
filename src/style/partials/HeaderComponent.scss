@@ -1,0 +1,40 @@
+.container{
+    width: 1390px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.logo, .links{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.links > li:hover{
+    color: rgb(255, 139, 81);
+    border-bottom: 2px solid;
+}
+
+.arrow{
+    font-size: 10px;
+}
+
+.phone-orange{
+    color: rgb(255, 139, 81);
+}
+
+.header_button{
+    width: 180px;
+    height: 55px;
+    color: rgb(255, 139, 81);
+    background-color: rgb(255, 231, 218);
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+}
