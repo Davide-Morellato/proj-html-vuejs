@@ -33,7 +33,7 @@ export default {
         <!-- <li>
           <a href="#">
             Home
-             <font-awesome-icon class="arrow" :icon="['fas', 'angle-down']" />
+            
           </a>
         </li>
         <li>

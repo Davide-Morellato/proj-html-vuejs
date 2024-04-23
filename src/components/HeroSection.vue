@@ -14,7 +14,7 @@
           </button>
         </div>
         <div class="card_marketing">
-            <div class="card_consultant">
+            <div class="card_consultant box-shad">
                 <img
                   class="image_card"
                   src="/public/images/marketing-consultant-expert.jpg"
@@ -30,7 +30,7 @@
                 <input type="text" placeholder="Your Email*" />
                 <input type="text" placeholder="Your Phone Number*" />
                 <button class="button_card" type="button">Get a Callback</button>
-                <div>By submitting my data I agree to be contacted</div>
+                <p class="c-light">By submitting my data I agree to be contacted</p>
             </div>
         </div>
       </div>

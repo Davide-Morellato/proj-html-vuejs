@@ -43,6 +43,12 @@
     font-size: 18px;
 }
 
+.hero_button:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    color: white;
+}
+
 .card_marketing{
     width: calc(6 * 100% / 12);
     display: flex;
@@ -55,6 +61,10 @@
     align-self: flex-end;
     border-radius: 20px;
     text-align: center;
+}
+
+.box-shad{
+    box-shadow:  0 7px 15px -6px gray;
 }
 
 .card_consultant > *{
@@ -75,6 +85,7 @@
     width: 100%;
     display: block;
     text-align: center;
+    height: 25px;
 }
 
 .button_card{
@@ -85,4 +96,12 @@
     font-size: 18px;
     background-color: orangered;
     color: white;
+}
+
+.button_card:hover{
+    background-color: rgb(241, 83, 26);
+}
+
+.c-light{
+    color: lightgrey;
 }

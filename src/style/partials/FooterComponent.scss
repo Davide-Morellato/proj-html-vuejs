@@ -8,6 +8,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 h5{
@@ -18,21 +19,14 @@ h5{
     padding-top: 10px;
 }
 
-.jc-c{
-    justify-content: center;
-}
-
 .col-40{
     flex-basis: calc(100% / 3);
-}
-
-.white{
-    color: white;
-    padding: 20px 0;
+    flex-grow: 1;
 }
 
 h5{
-    color: #8EA1E2;
+    color: black;
+    font-size: 30px;
 }
 
 .line-height{
@@ -46,25 +40,69 @@ h5{
 .flex{
     display: flex;
     gap: 30px;
-    color: white;
     padding-top: 15px;
+    color: black;
 }
 
 .col-15{
     flex-basis: calc(100% / 6);
+    padding-bottom: 20px;
 }
 
-.u-border{
-    border-top: 0.5px solid #8EA1E2;
+.r-pad{
+    padding-right: 120px;
 }
 
-.space-tb{
-    padding: 15px 0;
-    justify-content: space-between;
+.login{
+    flex-grow: 1;
+    text-align: end;
 }
 
-.bg-light{
-    background-color: #8EA1E2;
-    color: white;
-    width: 80px;
+.text-end{
+    text-align: end;
+    padding: 20px;
+}
+
+
+.pos-rel{
+    position: relative;
+    margin-top: 50px;
+}
+
+.mb-50{
+    margin-bottom: 25px;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: -50px;
+    right: 5px;
+}
+
+.bubble{
+    width: 35px;
+    background-color: orangered;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin-right: -15px;
+}
+
+.expert{
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: -15px;
+}
+
+.mex{
+    width: 150px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  0 7px 15px -6px gray;;
 }
