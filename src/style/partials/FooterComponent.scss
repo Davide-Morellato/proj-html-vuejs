@@ -8,7 +8,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 h5{
@@ -50,7 +50,7 @@ h5{
 }
 
 .r-pad{
-    padding-right: 120px;
+    padding-right: 50px;
 }
 
 .login{
@@ -100,9 +100,10 @@ h5{
 }
 
 .mex{
-    width: 150px;
+    width: 200px;
     padding: 15px;
     border-radius: 10px;
     text-align: center;
-    box-shadow:  0 7px 15px -6px gray;;
+    box-shadow:  0 7px 15px -6px gray;
+    color: grey;
 }

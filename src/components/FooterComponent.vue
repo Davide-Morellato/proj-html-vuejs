@@ -1,14 +1,13 @@
-
 <script>
-import {store} from '../store.js'
+import { store } from "../store.js";
 
 export default {
-  data(){
-    return{
+  data() {
+    return {
       store,
-    }
-  }
-}
+    };
+  },
+};
 </script>
 
 <template>
@@ -59,7 +58,11 @@ export default {
         </nav>
         <nav class="col-15">
           <h4>Services</h4>
-          <ul class="line-height" v-for="(linkServices, i) in store.footerServices" :key="i">
+          <ul
+            class="line-height"
+            v-for="(linkServices, i) in store.footerServices"
+            :key="i"
+          >
             <li>
               <a :href="linkServices.src">
                 {{ linkServices.name }}
@@ -84,7 +87,11 @@ export default {
         </nav>
         <nav class="col-15">
           <h4>Resources</h4>
-          <ul class="line-height" v-for="(linkResources, i) in store.footerResources" :key="i">
+          <ul
+            class="line-height"
+            v-for="(linkResources, i) in store.footerResources"
+            :key="i"
+          >
             <li>
               <a :href="linkResources.src">
                 {{ linkResources.name }}
@@ -97,10 +104,14 @@ export default {
         </nav>
         <nav class="col-15">
           <h4>Company</h4>
-          <ul class="line-height"  v-for="(linkCompany, i) in store.footerCompany" :key="i">
+          <ul
+            class="line-height"
+            v-for="(linkCompany, i) in store.footerCompany"
+            :key="i"
+          >
             <li>
               <a :href="linkCompany.src">
-               {{ linkCompany.name }}
+                {{ linkCompany.name }}
               </a>
             </li>
             <!-- <li><a href="#">Perchè Discord</a></li>
@@ -118,21 +129,24 @@ export default {
           &#169; 2020 &#8226; Avada Consultant &#8226; Powered by WordPress
         </li>
         <li>
-          <a href="#">
-            Call Us (555) 802-1234
-          </a>
+          <a href="#"> Call Us (555) 802-1234 </a>
         </li>
-        <li  class="login">
+        <li class="login">
           <a href="#">info@yourcompany.com</a>
         </li>
       </ul>
     </div>
     <div class="contact text-end">
-      <img class="expert" src="/public/images/marketing-expert-cta.png" alt="">
-        <p class="mex">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
-        <img class="bubble" src="/public/images/speech-bubbles.webp" alt="">
+      <img
+        class="expert"
+        src="/public/images/marketing-expert-cta.png"
+        alt=""
+      />
+      <p class="mex">
+        This is a Free HubSpot live chat. You can create your own chat flows and
+        engage your customers with Avada & HubSpot!
+      </p>
+      <img class="bubble" src="/public/images/speech-bubbles.webp" alt="" />
     </div>
   </div>
 </template>
