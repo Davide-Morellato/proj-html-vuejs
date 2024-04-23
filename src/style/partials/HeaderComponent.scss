@@ -1,18 +1,19 @@
 .container{
     max-width: 1390px;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .row{
+    padding: 10px 80px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo, .links{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
 }
 

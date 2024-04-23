@@ -1,15 +1,14 @@
-<template>
-    <div>
-
-    </div>
-</template>
-
 <script>
-    export default {
-        
-    }
+import HeroSection from "./HeroSection.vue";
+export default {
+  components: {
+    HeroSection,
+  },
+};
 </script>
 
-<style lang="scss" scoped>
+<template>
+  <HeroSection />
+</template>
 
-</style>
+<style lang="scss" scoped></style>
