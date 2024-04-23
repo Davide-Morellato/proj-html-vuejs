@@ -1,0 +1,62 @@
+.container{
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.bg-lightgrey{
+    background-color: rgb(246, 246, 247)
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.align-c{
+    align-items: center;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.fd-col{
+    flex-direction: column;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+.d-flex > li{
+    text-align: center;
+}
+
+.awards_img img{
+    width: 100px;
+}
+
+.f-invert{
+    filter: invert(1);
+}
+
+.f-contr{
+    filter: contrast(2.5);
+}
+
+.f-sat-inv{
+    filter: saturate(0.5) invert(1);
+    transform: rotate(270deg);
+}

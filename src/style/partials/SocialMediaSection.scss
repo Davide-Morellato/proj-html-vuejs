@@ -6,7 +6,7 @@
 .row{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .col{
@@ -56,4 +56,8 @@
     font-size: 15px;
     background-color: orangered;
     color: white;
+}
+
+.button_business:hover{
+    background-color: rgb(241, 83, 26);
 }

@@ -1,0 +1,88 @@
+.container{
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.align-c{
+    align-items: center;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.col-20{
+    flex-basis: 20%;
+    padding: 60px 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-col{
+    flex-direction: column;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pl-40{
+    padding-left: 40px;
+}
+
+.business_card_title{
+    padding-top: 10px;
+    font-size: large;
+}
+
+.text-10{
+    font-size: 10px;
+}
+
+.br-10{
+    border-radius: 10px;
+}
+
+.b-shad{
+    box-shadow: 0 7px 15px -6px gray;
+}
+
+.pos-rel{
+    position: relative; 
+}
+
+.card_img img{
+    display: block;
+    border-radius: 10px;
+}
+
+.card_img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 60%, rgb(219, 114, 9) 100%);
+}
+
+.card_img:hover:before{  
+    height: 100%;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
