@@ -1,21 +1,21 @@
 <template>
-  <div class="pt-50 bg-light pb-50">
+  <div class="pt-50 bg-light pb-80" id="about">
     <div class="container">
-      <div class="row jc-c align-c gap-20">
-        <div class="col-2">
-            <h2>
+      <div class="row jc-sa gap-20 align-end">
+        <div class="col-20">
+            <h2 class="fs-25">
                 Marketing Resources:
                 Insider Advice on How to Increase Online Sales
             </h2>
         </div>
         <div class="col-4 d-flex jc-end">
-            <button class="button_business" type="button">
+            <button class="button c-white bg-orangered fs-15" type="button">
               <a href="#">
                 Explore All Resources
               </a>
             </button>
         </div>
-        <div class="col-12 d-flex gap-20 jc-c pt-20">
+        <div class="col-100 d-flex gap-20 jc-c pt-20">
           <div class="card">
             <div class="pb-20 card_img">
               <img src="/public/images/blog-posts-6-400x267.jpg" alt="" />
@@ -27,7 +27,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card_img pb-20">
+            <div class="card_img pb-20 pos-rel">
               <img src="/public/images/blog-posts-5-400x267.jpg" alt="" />
             </div>
             <div class="card_body">
@@ -37,7 +37,7 @@
             </div>
           </div>
           <div class="card">
-            <div class="card_img pb-20">
+            <div class="card_img pb-20 pos-rel">
               <img src="/public/images/blog-posts-4-400x267.jpg" alt="" />
             </div>
             <div class="card_body">

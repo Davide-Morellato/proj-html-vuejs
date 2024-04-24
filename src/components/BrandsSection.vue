@@ -1,13 +1,13 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <div class="flex-c">
-        <h2 class="text-5">Some Brands We Work With</h2>
-        <h6 class="text-2">
+  <div class="container mt-150 mb-200">
+    <div class="row jc-c align-c f-dir-col gap-30">
+      <div class="d-flex align-c f-dir-col f-dir-col">
+        <h2 class="fs-50 pb-10">Some Brands We Work With</h2>
+        <h6 class="fs-20">
           Quisque aliquet, libero consequat elementum convallis.
         </h6>
       </div>
-      <ul class="logo_brands">
+      <ul class="logo_brands d-flex gap-20">
         <li>
           <a href="#">
             <img class="brands" src="/public/images/abstract.png" alt="" />
@@ -39,29 +39,29 @@
           </a>
         </li>
       </ul>
-      <div class="box">
+      <div class="box d-flex box-shad align-c b-rad-10 pad-30">
         <div>
           <img
-            class="expert"
+            class="expert b-rad-50"
             src="/public/images/marketing-expert-cta.png"
             alt=""
           />
         </div>
-        <div class="expert_title">
-            <h6 class="text-md">
+        <div class="expert_title pad-0-5">
+            <h6 class="fs-20">
                 Sandy Reiff
             </h6>
-            <p class="text-sm">
+            <p class="fs-15">
                 Marketing Consultant Expert
             </p>
         </div>
-        <div class="grow">
-            <p class="text-lg">
+        <div class="f-grow text-c">
+            <p class="fw-bold fs-30">
                 Drive Leads and Sales with Avada
             </p>
         </div>
         <div>
-            <button class="button_brands">
+            <button class="button bg-lightorange c-orange b-rad-10 fs-18">
                 <a href="#">
                     <font-awesome-icon class="phone-orange" :icon="['fas', 'phone']" />
                     (555) 802-1234

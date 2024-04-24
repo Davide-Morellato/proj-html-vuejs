@@ -1,29 +1,5 @@
-.container{
-    max-width: 1390px;
-    margin: 0 auto;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.col{
-    display: flex;
-    align-items: center;
-}
-
 .brand_img{
-    width: 630px;
-    height: 520px;
-}
-
-.column-20{
-    flex-basis:20%;
-    display: flex;
-    padding-top: 60px;
-    align-items: center;
+    width: 70%;
 }
 
 .business_img{
@@ -34,30 +10,12 @@
 .business_title{
     display: inline-block;
     vertical-align: middle;
-    padding-left: 10px;
-}
-
-.d-flex{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
 }
 
 .business_card_title{
-    padding-top: 10px;
     font-size: xx-large;
 }
 
-.button_business{
-    width: 150px;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    font-size: 15px;
-    background-color: orangered;
-    color: white;
-}
-
-.button_business:hover{
+.button:hover{
     background-color: rgb(241, 83, 26);
 }

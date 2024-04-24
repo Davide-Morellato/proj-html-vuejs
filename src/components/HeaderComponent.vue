@@ -11,17 +11,17 @@ export default {
 
 <template>
   <div class="container">
-    <div class="row">
-      <div class="logo">
+    <div class="row align-c pad-10-80 jc-sb">
+      <div class="logo d-flex gap-20 align-c">
         <a href="#">
           <img src="/images/avada-marketing-logo.png" alt="" />
         </a>
       </div>
-      <ul class="links">
+      <ul class="links d-flex gap-20 align-c">
         <li v-for="singleLink in headerLink">
           <a :href="singleLink.src">
             <!-- INSERIRE L'ICONA FONTAWESOME PER PHONE -->
-            <font-awesome-icon class="phone-orange" :icon="['fas', 'phone']" v-if="singleLink.name === '(555) 802-1234'"/>
+            <font-awesome-icon class="phone c-orange" :icon="['fas', 'phone']" v-if="singleLink.name === '(555) 802-1234'"/>
             {{ singleLink.name }}
             <!-- <span class="arrow" v-html="singleLink.icon">
             </span> -->
@@ -61,7 +61,11 @@ export default {
           </a>
         </li> -->
       </ul>
-      <button class="header_button" type="button">Free Quote</button>
+      <button class="button c-orange bg-lightorange fs-18" type="button">
+        <a href="#">
+          Free Quote
+        </a>
+      </button>
     </div>
   </div>
 </template>

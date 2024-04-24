@@ -25,7 +25,7 @@
                         <div class="img_cont">
                             <img src="/public/images/image (2) (1).png" alt="">
                         </div>
-                        <div class="d-flex f-col pb-50 pl-10">
+                        <div class="d-flex f-dir-col pb-50 pl-10">
                             <h4>
                                 Accountability
                             </h4>
@@ -38,9 +38,9 @@
                         <div class="img_cont">
                             <img src="/public/images/image (3).png" alt="">
                         </div>
-                        <div class="d-flex f-col pb-50 pl-10">
+                        <div class="d-flex f-dir-col pb-50 pl-10">
                             <h4>
-                                Accountability
+                                Transparency
                             </h4>
                             <p>
                                 Lorem ipsum dolor sit amet.
@@ -51,9 +51,9 @@
                         <div class="img_cont">
                             <img src="/public/images/image (4).png" alt="">
                         </div>
-                        <div class="d-flex f-col jc-c pl-10">
+                        <div class="d-flex f-dir-col jc-c pl-10">
                             <h4>
-                                Accountability
+                                Investment
                             </h4>
                             <p>
                                 Lorem ipsum dolor sit amet.

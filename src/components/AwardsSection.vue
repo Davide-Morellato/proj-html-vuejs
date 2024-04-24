@@ -1,7 +1,7 @@
 <template>
     <div class="bg-lightgrey pt-50">
         <div class="container">
-            <div class="row align-c gap-20 fd-col">
+            <div class="row align-c gap-20 f-dir-col">
                 <h2 class="text-c">
                     Awards
                 </h2>

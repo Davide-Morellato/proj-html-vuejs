@@ -1,109 +1,23 @@
-
-.container{
-    width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-h5{
-    font-size: large;
-}
-
-.low-pad{
-    padding-top: 10px;
-}
-
-.col-40{
-    flex-basis: calc(100% / 3);
-    flex-grow: 1;
-}
-
-h5{
-    color: black;
-    font-size: 30px;
-}
-
 .line-height{
     line-height: 1.4;
 }
 
-.color-b{
-    color: black;
-}
-
-.flex{
-    display: flex;
-    gap: 30px;
-    padding-top: 15px;
-    color: black;
-}
-
-.col-15{
-    flex-basis: calc(100% / 6);
-    padding-bottom: 20px;
-}
-
-.r-pad{
-    padding-right: 50px;
-}
-
-.login{
-    flex-grow: 1;
-    text-align: end;
-}
-
-.text-end{
-    text-align: end;
-    padding: 20px;
-}
-
-
-.pos-rel{
-    position: relative;
-    margin-top: 50px;
-}
-
-.mb-50{
-    margin-bottom: 25px;
-}
-
 .contact{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: flex-end;
-    align-items: center;
-    position: absolute;
-    bottom: -50px;
+    bottom: -20px;
     right: 5px;
 }
 
 .bubble{
     width: 35px;
-    background-color: orangered;
-    border-radius: 50%;
-    align-self: flex-end;
-    margin-right: -15px;
+    margin-right: -10px;
 }
 
 .expert{
     width: 30px;
     aspect-ratio: 1/1;
-    border-radius: 50%;
     margin: -15px;
 }
 
 .mex{
     width: 200px;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow:  0 7px 15px -6px gray;
-    color: grey;
 }

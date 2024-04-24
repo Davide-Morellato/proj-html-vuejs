@@ -16,31 +16,31 @@ export default{
       headerLinks: [
         {
           name: 'Home',
-          src: '#'
+          src: '#home'
         },
         {
           name: 'Services',
-          src: '#'
+          src: '#services'
         },
         {
           name: 'Why Us',
-          src: '#'
+          src: '#why_us'
         },
         {
           name: 'Case Studies',
-          src: '#'
+          src: '#case_studies'
         },
         {
           name: 'About',
-          src: '#'
+          src: '#about'
         },
         {
           name: 'Blog',
-          src: '#'
+          src: '#blog'
         },
         {
           name: '(555) 802-1234',
-          src: '#'
+          src: '#call_us'
         },
       ],
     }

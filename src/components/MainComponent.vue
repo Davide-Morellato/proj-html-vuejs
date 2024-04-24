@@ -6,6 +6,7 @@ import HeroSection from "./HeroSection.vue";
 import IncreaseBrandSection from "./IncreaseBrandSection.vue";
 import InvestorsSection from "./InvestorsSection.vue";
 import LeadingSection from "./LeadingSection.vue";
+import LetsMakeThingsSection from "./LetsMakeThingsSection.vue";
 import MarketingResourcesSection from "./MarketingResourcesSection.vue";
 import RelationshipSection from "./RelationshipSection.vue";
 import SocialMediaSection from "./SocialMediaSection.vue";
@@ -24,6 +25,7 @@ export default {
     AwardsSection,
     AbstractSection,
     MarketingResourcesSection,
+    LetsMakeThingsSection
   },
 };
 </script>
@@ -61,6 +63,9 @@ export default {
   </section>
   <section>
     <MarketingResourcesSection />
+  </section>
+  <section>
+    <LetsMakeThingsSection/>
   </section>
 </template>
 

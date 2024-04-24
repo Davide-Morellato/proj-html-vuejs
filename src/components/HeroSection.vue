@@ -1,36 +1,42 @@
 <template>
-  <section class="hero_section">
+  <section class="hero_section" id="services">
     <div class="container">
-      <div class="hero_nav">
-        <div class="card_nav">
-          <h1 class="title">Unlock Your Online Growth Potential</h1>
-          <p class="sub-title">
+      <div class="row pt-110 jc-end">
+        <div class="col-30">
+          <h1 class="title fs-40 c-white">Unlock Your Online Growth Potential</h1>
+          <p class="sub-title ptb-35 fs-23 c-white">
             Online Marketing to secure customer retention, leads, and sales. We
             focus on the bigger picture.
           </p>
-          <button class="hero_button">
+          <button class="button c-black bg-white fs-18">
             Our Services
             <font-awesome-icon :icon="['fas', 'arrow-right']" />
           </button>
         </div>
-        <div class="card_marketing">
-            <div class="card_consultant box-shad">
+        <div class="col-50 d-flex jc-c">
+            <div class="card_consultant text-c b-rad-20 align-s-end pad-0-20 bg-white box-shad">
                 <img
-                  class="image_card"
+                  class="image_card b-rad-50"
                   src="/public/images/marketing-consultant-expert.jpg"
                   alt=""
                 />
                 <h4>Richard Madsen</h4>
                 <p>Marketing Consultant Expert</p>
-                <span class="phone_card">
-                  <font-awesome-icon class="phone-orange" :icon="['fas', 'phone']" />
-                  (555) 802-1234
+                <span class="phone_card c-orange">
+                  <a href="#">
+                    <font-awesome-icon class="phone-orange" :icon="['fas', 'phone']" />
+                    (555) 802-1234
+                  </a>
                 </span>
-                <input type="text" placeholder="Your Name*" />
-                <input type="text" placeholder="Your Email*" />
-                <input type="text" placeholder="Your Phone Number*" />
-                <button class="button_card" type="button">Get a Callback</button>
-                <p class="c-light">By submitting my data I agree to be contacted</p>
+                <input type="text" placeholder="Your Name*" required/>
+                <input type="text" placeholder="Your Email*" required/>
+                <input type="text" placeholder="Your Phone Number*" required/>
+                <button class="button bg-orangered c-white" type="button">
+                  <a href="#">
+                    Get a Callback
+                  </a>
+                </button>
+                <p class="c-lightgrey">By submitting my data I agree to be contacted</p>
             </div>
         </div>
       </div>

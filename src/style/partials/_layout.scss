@@ -1,0 +1,426 @@
+/* STRUCTURE */
+.container{
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.card{
+    height: 100%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-15{
+    flex-basis: 15%;
+}
+
+.col-20{
+    flex-basis: 20%;
+}
+
+.col-25{
+    width: calc(3 * 100% / 12);
+}
+
+.col-40{
+    flex-basis: 40%;
+}
+
+.col-50{
+    width: calc(6 * 100% / 12);
+}
+
+.col-30{
+    width: calc(4 * 100% / 12);
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+/* FLEX & FLEX-PROPERTIES */
+.d-flex{
+    display: flex;
+}
+
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.f-dir-col{
+    flex-direction: column;
+}
+
+.f-grow{
+    flex-grow: 1;
+}
+
+.align-c{
+    align-items: center;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-s-end{
+    align-self: flex-end;
+}
+
+.align-c-end{
+    align-content: flex-end;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.gap-40{
+    gap: 40px;
+}
+
+
+/* PADDING */
+.pad-15{
+    padding: 15px;
+}
+
+.pad-20{
+    padding: 20px;
+}
+
+.pad-30{
+    padding: 30px;
+}
+
+.pad-0-5{
+    padding: 0 5px;
+}
+
+.pad-0-20{
+    padding: 0 20px;
+}
+
+.pad-10-80{
+    padding: 10px 80px;
+}
+
+.pad-60-40{
+    padding: 60px 40px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+
+.pl-40{
+    padding-left: 40px;
+}
+
+.pl-60{
+    padding-left: 60px;
+}
+
+.pr-50{
+    padding-right: 50px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-15{
+    padding-top: 15px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pt-60{
+    padding-top: 60px;
+}
+
+.pt-110{
+    padding-top: 110px;
+}
+
+.ptb-35{
+    padding: 35px 0;
+}
+
+.ptb-60{
+    padding: 60px 0;
+}
+
+.pbt-80{
+    padding: 80px 0;
+}
+
+.pb-5{
+    padding-bottom: 5px;
+}
+
+.pb-10{
+    padding-bottom: 10px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
+
+
+/* MARGIN */
+.ml-50{
+    margin-left: 50px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mt-100{
+    margin-top: 100px;
+}
+
+.mt-150{
+    margin-top: 150px;
+}
+
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.mb-200{
+    margin-bottom: 200px;
+}
+
+
+/* TEXT */
+.text-c{
+    text-align: center;
+}
+
+.text-e{
+    text-align: end;
+}
+
+/* FONT */
+.fs-10{
+    font-size: 10px;
+}
+
+.fs-15{
+    font-size: 15px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px
+}
+
+.fs-23{
+    font-size: 23px;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+.fs-30{
+    font-size: 30px;
+}
+
+.fs-40{
+    font-size: 40px;
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-80{
+    font-size: 80px;
+}
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.fw-bolder{
+    font-weight: bolder;
+}
+
+.f-italic{
+    font-style: italic;
+}
+
+/* COLOR */
+.c-white{
+    color: white;
+}
+
+.c-lightgrey{
+    color: lightgrey;
+}
+
+.c-grey{
+    color: grey;
+}
+
+.c-black{
+    color: black;
+}
+
+.c-lightorange{
+    color:  rgb(255, 231, 218);;
+}
+
+.c-orange{
+    color: rgb(255, 139, 81);
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-light{
+    background-color: rgb(246, 246, 247)
+}
+
+.bg-lightorange{
+    background-color: rgb(255, 231, 218);
+}
+
+.bg-orange{
+    background-color: rgb(255, 139, 81);
+}
+
+.bg-orangered{
+    background-color: orangered;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+
+/* BUTTON */
+.button{
+    width: 180px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* BORDER */
+.b-rad-10{
+    border-radius: 10px;
+}
+
+.b-rad-20{
+    border-radius: 20px;
+}
+
+.b-rad-50{
+    border-radius: 50%;
+}
+
+
+/* BOX-SHADOW */
+.box-shad{
+    box-shadow:  0 7px 15px -6px gray;
+}
+
+
+/* HOVER CARD */
+.card_img{
+    position: relative;
+}
+
+.card_img img{
+    display: block;
+    border-radius: 10px;
+}
+
+.card_img:hover:before{  
+    height: 100%;
+}
+
+
+/* FILTER */
+.f-invert{
+    filter: invert(1);
+}
+
+.f-contr{
+    filter: contrast(2.5);
+}
+
+.f-sat-inv{
+    filter: saturate(0.5) invert(1);
+    transform: rotate(270deg);
+}
+
+
+/* POSITION */
+
+.pos-rel{
+    position: relative;
+}
+
+.pos-abs{
+    position: absolute;
+} 
+    
