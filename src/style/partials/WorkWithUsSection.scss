@@ -3,13 +3,16 @@
     margin: 0 auto;
 }
 
-.bg-lightgrey{
+.bg-light{
     background-color: rgb(246, 246, 247)
 }
 
 .row{
     display: flex;
     flex-wrap: wrap;
+}
+
+.jc-c{
     justify-content: center;
 }
 
@@ -17,44 +20,46 @@
     padding-top: 50px;
 }
 
-.col{
+.col-40{
     width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .brand_img{
     width: 70%;
+    border-radius: 10px;
 }
 
-.column-20{
+.col-20{
     flex-basis:20%;
-    display: flex;
-    padding: 60px 0;
+}
+
+.align-c{
     align-items: center;
 }
 
-.business_img{
-    width: 20px;
-    vertical-align: middle;
-}
-
-.business_title{
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 10px;
+.ptb-60{
+    padding: 60px 0;
 }
 
 .d-flex{
     display: flex;
-    flex-direction: column;
+    
+}
+
+.gap-20{
     gap: 20px;
 }
 
+.f-col{
+    flex-direction: column;
+}
+
 .business_card_title{
-    padding-top: 10px;
     font-size: xx-large;
+}
+
+.pt-10{
+    padding-top: 10px;
 }
 
 .button_business{

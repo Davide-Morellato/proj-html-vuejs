@@ -5,7 +5,7 @@
       <div class="col-4">
         <div class="card">
           <div class="card_img">
-            <img src="/public/images/case-studies-1-400x450.jpg" alt="" />
+            <img src="/public/images/case-studies-1.jpg" alt="" />
           </div>
           <div class="card_body">
             <h4>
@@ -22,7 +22,7 @@
       <div class="col-4">
         <div class="card">
           <div class="card_img">
-            <img src="/public/images/case-studies-4-400x450.jpg" alt="" />
+            <img src="/public/images/case-studies-4.jpg" alt="" />
           </div>
           <div class="card_body">
             <h4>
@@ -40,7 +40,7 @@
       <div class="col-4">
         <div class="card">
           <div class="card_img">
-            <img src="/public/images/case-studies-6-400x450.jpg" alt="" />
+            <img src="/public/images/case-studies-6.jpg" alt="" />
           </div>
           <div class="card_body">
             <h4>How DigitalBox used AI-powered data insight to boost sales</h4>

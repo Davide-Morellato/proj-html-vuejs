@@ -1,0 +1,101 @@
+.bg-light{
+background-color: rgb(246, 246, 248);
+}
+
+.container{
+    max-width: 1390px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.align-c{
+    align-items: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.jc-end{
+    justify-content: flex-end;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.col-12{
+    width: 100%;
+}
+
+.col-2{
+    width: 20%;
+}
+
+.col-4{
+    width: 40%;
+}
+
+.card{
+    height: 100%;
+}
+
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.button_business{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+}
+
+.button_business:hover{
+    background-color: rgb(241, 83, 26);
+}
+
+.card_img img{
+    display: block;
+    border-radius: 10px;
+}
+
+.card_img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 0%;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+    transition: height 0.5s ease-out;
+    background: linear-gradient(to bottom, transparent 60%, rgb(219, 114, 9) 100%);
+}
+
+.card_img:hover:before{  
+    height: 100%;
+}
