@@ -14,6 +14,7 @@
           </button>
         </div>
         <div class="col-50 d-flex jc-c">
+          <form action="#">
             <div class="card_consultant text-c b-rad-20 align-s-end pad-0-20 bg-white box-shad">
                 <img
                   class="image_card b-rad-50"
@@ -36,8 +37,9 @@
                     Get a Callback
                   </a>
                 </button>
-                <p class="c-lightgrey">By submitting my data I agree to be contacted</p>
+                <p class="c-lightgrey pb-10">By submitting my data I agree to be contacted</p>
             </div>
+          </form>
         </div>
       </div>
     </div>

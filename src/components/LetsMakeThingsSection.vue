@@ -23,31 +23,33 @@
           </p>
         </div>
         <div class="col-40 d-flex jc-c pl-50">
-          <div class="card_marketing d-flex ml-50">
-            <div class="card_consultant text-c b-rad-20 align-s-end bg-white pad-0-20 box-shad">
-              <img
-                class="image_card b-rad-50"
-                src="/public/images/marketing-consultant-expert.jpg"
-                alt=""
-              />
-              <h4>Richard Madsen</h4>
-              <p>Marketing Consultant Expert</p>
-              <span class="phone c-orange">
-                <font-awesome-icon
-                  class="phone c-orange"
-                  :icon="['fas', 'phone']"
+          <form action="#">
+            <div class="card_marketing d-flex ml-50">
+              <div class="card_consultant text-c b-rad-20 align-s-end bg-white pad-0-20 box-shad">
+                <img
+                  class="image_card b-rad-50"
+                  src="/public/images/marketing-consultant-expert.jpg"
+                  alt=""
                 />
-                (555) 802-1234
-              </span>
-              <input type="text" placeholder="Your Name*" />
-              <input type="text" placeholder="Your Email*" />
-              <input type="text" placeholder="Your Phone Number*" />
-              <button class="button fs-15 c-white bg-orangered" type="button">Get a Callback</button>
-              <p class="c-lightgrey">
-                By submitting my data I agree to be contacted
-              </p>
+                <h4>Richard Madsen</h4>
+                <p>Marketing Consultant Expert</p>
+                <span class="phone c-orange">
+                  <font-awesome-icon
+                    class="phone c-orange"
+                    :icon="['fas', 'phone']"
+                  />
+                  (555) 802-1234
+                </span>
+                <input type="text" placeholder="Your Name*" />
+                <input type="text" placeholder="Your Email*" />
+                <input type="text" placeholder="Your Phone Number*" />
+                <button class="button fs-15 c-white bg-orangered" type="button">Get a Callback</button>
+                <p class="c-lightgrey">
+                  By submitting my data I agree to be contacted
+                </p>
+              </div>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
